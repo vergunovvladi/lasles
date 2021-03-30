@@ -1,0 +1,13 @@
+@mixin fontStyle($size: 16px, $color: #4F5665, $weight: 400) {
+    font-family: 'Rubik', sans-serif;
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;    
+}
+
+@mixin flexMix($justify: center, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
